@@ -3,13 +3,13 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Projects/>
+      <Projects />
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

@@ -19,6 +19,7 @@ export default function Footer() {
       <a href="https://www.linkedin.com/in/lielitzchak/">
         <img src={whatsapp} alt="Liel Itzchak Whatsapp" />
       </a>
+      
     </section>
   );
 }

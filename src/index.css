@@ -8,16 +8,4 @@
 body {
   background-color: #2f2f2f3d;
 }
-
-@media only screen and (min-device-width: 10px) and (max-device-width: 496px) {
-  .Projects img {
-    width: 89%;
-    height: auto;
-    margin: 21px;
-    border-radius: 44px;
-  }
-  .Projects h1 {
-    text-align: center;
-  }
-}
 /*# sourceMappingURL=index.css.map */

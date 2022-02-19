@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
+@import "../../index.scss";
+
+@keyframes DetailsProject {
+    0% {
+        transform: scale(.5)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes DetailsProject {
+    0% {
+        box-shadow: 0 0 0 0 transparent
+    }
+
+    100% {
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, .35)
+    }
+}
+
+@media only screen and (min-device-width: 10px) and (max-device-width: 496px) {
+    .DetailsProject {
+        margin: 3.5rem;
+        border-radius: 3rem;
+        text-align: center;
+        padding-top: 0.1rem;
+        padding-bottom: 1.5rem;
+        animation: DetailsProject .4s cubic-bezier(.39, .575, .565, 1.000) both;
+
+        h1 {
+            font-family: 'Klee One', cursive;
+        }
+
+        p,
+        a {
+            font-family: 'Klee One', cursive;
+
+        }
+
+        a {
+            color: $fontColor;
+            text-decoration: none;
+        }
+
+        img {
+            border-radius: 1.5rem;
+        }
+    }
+
+    .DetailsProject {
+        animation: DetailsProject .4s cubic-bezier(.25, .46, .45, .94) both
+    }
+
+}

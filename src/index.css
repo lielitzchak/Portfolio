@@ -19,30 +19,5 @@ body {
   .Projects h1 {
     text-align: center;
   }
-  .Footer {
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    margin: 0 0 9px 13px;
-  }
-  .Footer a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: baseline;
-        -ms-flex-pack: baseline;
-            justify-content: baseline;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .Footer a img {
-    width: 50px;
-    height: 50px;
-  }
 }
 /*# sourceMappingURL=index.css.map */

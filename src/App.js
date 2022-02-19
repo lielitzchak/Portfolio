@@ -1,15 +1,14 @@
-// import logo from "./logo.svg";
 import "./App.css";
-import Footer from "./components/Footer/Footer";
+import FooterComponent from "./components/Footer/FooterComponent";
 import Projects from "./components/Projects/Projects";
 
-const App = () => {
+function App() {
   return (
     <div className="App">
       <Projects />
-      <Footer />
+      <FooterComponent />
     </div>
   );
-};
+}
 
 export default App;

@@ -1,12 +1,15 @@
-import React from "react";
-import whatsapp from "./Photo/whatsapp.png";
-import linkedin from "./Photo/linkedin.png";
-import github from "./Photo/github.png";
-import gmail from "./Photo/gmail.png";
+import whatsapp from "./Photos/whatsapp.png";
+import linkedin from "./Photos/linkedin.png";
+import github from "./Photos/github.png";
+import gmail from "./Photos/gmail.png";
+import "./Footer.css";
 
-export default function Footer() {
+let FooterComponent = () => {
   return (
     <section className="Footer">
+      <a href="https://www.linkedin.com/in/lielitzchak/">
+        <img src={whatsapp} alt="Liel Itzchak Whatsapp" />
+      </a>
       <a href="https://www.linkedin.com/in/lielitzchak/">
         <img src={linkedin} alt="Liel Itzchak linkedin" />
       </a>
@@ -16,10 +19,7 @@ export default function Footer() {
       <a href="https://github.com/lielitzchak">
         <img src={github} alt="Liel Itzchak Github" />
       </a>
-      <a href="https://www.linkedin.com/in/lielitzchak/">
-        <img src={whatsapp} alt="Liel Itzchak Whatsapp" />
-      </a>
-      
     </section>
   );
-}
+};
+export default FooterComponent;

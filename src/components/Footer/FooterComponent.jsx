@@ -7,7 +7,7 @@ import "./Footer.css";
 let FooterComponent = () => {
   return (
     <section className="Footer">
-      <a href="https://www.linkedin.com/in/lielitzchak/">
+      <a href="https://wa.me/<0547080093>/">
         <img src={whatsapp} alt="Liel Itzchak Whatsapp" />
       </a>
       <a href="https://www.linkedin.com/in/lielitzchak/">

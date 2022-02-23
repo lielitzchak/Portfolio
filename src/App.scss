@@ -1,0 +1,20 @@
+$backGround:#2f2f2f3d;
+$fontColor: black;
+
+@mixin FlexAll {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $backGround;
+
+}

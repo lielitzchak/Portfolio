@@ -2,11 +2,17 @@ import whatsapp from "./Photos/whatsapp.png";
 import linkedin from "./Photos/linkedin.png";
 import github from "./Photos/github.png";
 import gmail from "./Photos/gmail.png";
+import cv from "./Photos/cv.png";
+// import Resume from "/files/Resume-Liel Itzchak word.docx";
 import "./Footer.css";
 
 let FooterComponent = () => {
   return (
     <section className="Footer">
+      {/* <a href="https://wa.me/<0547080093>/" download>
+        <img src={cv} alt="Liel Itzchak Whatsapp" />
+        <input type="file" accept={Resume} />
+      </a> */}
       <a href="https://wa.me/<0547080093>/">
         <img src={whatsapp} alt="Liel Itzchak Whatsapp" />
       </a>

@@ -3,7 +3,7 @@ import linkedin from "./Photos/linkedin.png";
 import github from "./Photos/github.png";
 import gmail from "./Photos/gmail.png";
 import cv from "./Photos/cv.png";
-import "./Footer.css";
+import "./style/Footer.css";
 
 let FooterComponent = () => {
   return (

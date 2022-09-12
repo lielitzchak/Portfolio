@@ -7,9 +7,7 @@ import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 const pages = ["Project", "contact"];
 const settings = ["Profile"];
@@ -17,12 +15,15 @@ const settings = ["Profile"];
 const Header = () => {
   const [anchorElNav, setAnchorElNav] = useState(null);
   const [anchorElUser, setAnchorElUser] = useState(null);
+  const style = {
+    background: "#7882A4",
+    color: "black",
+    position: "sticky",
+  };
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
+ 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
@@ -30,7 +31,7 @@ const Header = () => {
     setAnchorElUser(null);
   };
   return (
-    <AppBar position="static">
+    <AppBar sx={style} position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -97,11 +98,6 @@ const Header = () => {
             ))}
           </Box>
           <Box sx={{ flexGrow: 0 }}>
-            {/* <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-              </IconButton>
-            </Tooltip> */}
             <Menu
               sx={{ mt: "45px" }}
               id="menu-appbar"

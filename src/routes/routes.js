@@ -1,15 +1,9 @@
-import { MY_PROJECTS } from "../components/Projects/Project";
-import {} from "../components/Projects/Projects";
+import About from "../components/About/About.component";
 import TestPageComponents from "../components/testPage/testPage.components";
 export const ROUTES = [
   { path: "/", element: <TestPageComponents /> },
-  { path: "/test", element: <TestPageComponents /> },
-//   {
-//     path: "/test",
-//     element: <MY_PROJECTS />,
-//   },
-  //   {
-  //     path: "/Projects",
-  //     element: <Projects />,
-  //   },
+  { path: "/about", element: <About /> },
+  { path: "/my-skills", element: <TestPageComponents /> },
+  { path: "/work", element: <TestPageComponents /> },
+  { path: "/contact", element: <TestPageComponents /> },
 ];

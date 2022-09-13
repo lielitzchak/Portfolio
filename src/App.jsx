@@ -5,8 +5,8 @@ import { ROUTES } from "./routes/routes";
 function App() {
   return (
     <section className="App">
-        <SideBar/>
-       <Routes>
+      <SideBar />
+      <Routes>
         {ROUTES.map((singleRoute) => (
           <Route
             key={singleRoute.path}

@@ -1,19 +1,43 @@
 $backGround:#2f2f2f3d;
 $fontColor: black;
 
-@mixin FlexAll {
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    align-items: center;
+@keyframes fadeIn {
+    100% {
+        opacity: 1
+    }
 }
 
 * {
     border: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    margin: 0;
 
-body {
-    background-color: $backGround;
+    box-sizing: border-box;
+
+    body {
+        background-color: $backGround;
+        width: 100%;
+        height: 100%;
+    }
+
+    @media only screen and (min-width: 10px) and (max-width: 451px) {}
+
+    @media only screen and (min-width:451px) and (max-width:1024px) {}
+
+    @media only screen and (min-width: 1301px) {
+        @import "components/SideBar/SideBar";
+    }
+
+    @import "components/About/About";
+    //         color: black;
+    //     }
+
+    //         color: black;
+    //         @import "components/SideBar/SideBar";
+    //     }
+
+    //         color: black;
+
+    //         @import "components/SideBar/SideBar";
+    //     }
+
 }

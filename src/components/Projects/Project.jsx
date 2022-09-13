@@ -1,19 +1,4 @@
-// export class Project {
-//   name;
-//   description;
-//   link;
-//   Photo;
-//   id;
-//   constructor(name, description, link, Photo) {
-//     this.name = name;
-//     this.description = description;
-//     this.link = link;
-//     this.Photo = Photo;
-//     this.id = ++Project.id;
-//   }
-//   static id = 0;
-// }
-
+ 
 export const MY_PROJECTS = [
   {
     Name: "fitness app",
@@ -52,7 +37,7 @@ export const MY_PROJECTS = [
     Done: true,
   },
   {
-    Name: "Clothing-Store",
+    Name: "Clothing Store",
     Description: "First project I submitted with HTML, CSS, JAVASCRIPT.",
     Link: "https://did.li/trrCN",
     Photo: "https://did.li/1sINf",

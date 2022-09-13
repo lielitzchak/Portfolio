@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
- 
+
 const SideBar = () => {
   return (
     <div className="SideBar">
@@ -15,7 +15,7 @@ const SideBar = () => {
         <Link to="my-skills">my skills</Link>
         <Link to="work">work</Link>
         <Link to="contact">contact</Link>
-        <Link to="blog">blog</Link>
+        {/* <Link to="blog">blog</Link> */}
       </nav>
       <div className="social">
         <Link to="/email">

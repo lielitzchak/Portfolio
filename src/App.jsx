@@ -6,17 +6,17 @@ function App() {
   return (
     <section className="App">
       <SideBar />
-      <Routes>
-        {ROUTES.map((singleRoute) => (
-          <Route
-            key={singleRoute.path}
-            exact
-            element={singleRoute.element}
-            path={singleRoute.path}
-          />
-        ))}
-      </Routes>
-    </section>
+        <Routes>
+          {ROUTES.map((singleRoute) => (
+            <Route
+              key={singleRoute.path}
+              exact
+              element={singleRoute.element}
+              path={singleRoute.path}
+            />
+          ))}
+        </Routes>
+     </section>
   );
 }
 

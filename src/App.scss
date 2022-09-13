@@ -19,12 +19,22 @@ $fontColor: black;
         height: 100%;
     }
 
+    .information {
+        height: 100%;
+        width: 100%;
+        background-color: aquamarine;
+        padding-left: 8.2%;
+        position: fixed;
+    }
+
     @media only screen and (min-width: 10px) and (max-width: 451px) {}
 
     @media only screen and (min-width:451px) and (max-width:1024px) {}
 
     @media only screen and (min-width: 1301px) {
         @import "components/SideBar/SideBar";
+
+
     }
 
     @import "components/About/About";

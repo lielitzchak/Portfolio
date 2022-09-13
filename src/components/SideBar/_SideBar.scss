@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&display=swap');
+
 :root {
     --primary-color: #D96AA7;
     --secondary-color: #422C73;
@@ -7,6 +9,7 @@
 }
 
 .SideBar {
+
     text-transform: capitalize;
     background-color: #181818;
     height: 100vh;
@@ -20,9 +23,12 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Noto Sans Buhid',
+        sans-serif;
+    padding-top: 4%;
 
     a {
-        font-size: 1.6rem;
+        font-size: 1rem;
         color: #fff;
         text-decoration: none;
         padding: 20px;
@@ -41,13 +47,14 @@
             text-align: center;
             width: 100%;
             display: block;
-            font-size: 1.6rem;
+            font-size: 1rem;
             color: #909096;
             line-height: 1rem;
             border-bottom: 1px solid #282828;
             transition: color 0.3s, background-color 0.3s;
         }
     }
+
     .social {
         color: #909096;
         margin: 0;
@@ -60,6 +67,7 @@
         flex-wrap: wrap;
         height: 20rem;
     }
+
     .container {
 
         section {

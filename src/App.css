@@ -18,7 +18,17 @@
   width: 100%;
   height: 100%;
 }
+* .information {
+  height: 100%;
+  width: 100%;
+  background-color: aquamarine;
+  padding-left: 8.2%;
+  position: fixed;
+}
 @media only screen and (min-width: 1301px) {
+  * {
+    @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&display=swap");
+  }
   * :root {
     --primary-color: #D96AA7;
     --secondary-color: #422C73;
@@ -40,9 +50,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    font-family: "Noto Sans Buhid", sans-serif;
+    padding-top: 4%;
   }
   * .SideBar a {
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: #fff;
     text-decoration: none;
     padding: 20px;
@@ -60,7 +72,7 @@
     text-align: center;
     width: 100%;
     display: block;
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: #909096;
     line-height: 1rem;
     border-bottom: 1px solid #282828;
@@ -105,8 +117,4 @@
     -webkit-animation: 2s fadeIn forwards 0.5s;
             animation: 2s fadeIn forwards 0.5s;
   }
-}
-* .About {
-  height: 100%;
-  background-color: aquamarine;
 }/*# sourceMappingURL=App.css.map */

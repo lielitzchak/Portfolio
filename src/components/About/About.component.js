@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="About">
+    <div className="About information">
       I’m a Front-End Developer located in Poland. I have a serious passion for
       UI effects, animations and creating intuitive, dynamic user experiences.
       Well-organised person, problem solver, independent employee with high

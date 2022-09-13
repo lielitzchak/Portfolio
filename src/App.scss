@@ -34,6 +34,7 @@ $fontColor: black;
     @media only screen and (min-width: 1301px) {
         @import "components/SideBar/SideBar";
         @import "components/Contact/Contact";
+        @import "components/work/Work";
     }
 
     @import "components/About/About";

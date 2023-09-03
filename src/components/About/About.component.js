@@ -1,6 +1,5 @@
 import AboutBottomPicturersComponent from "./AboutBottomPicturersComponent";
 
- 
 export default function About() {
   return (
     <div className="About information">
@@ -30,11 +29,13 @@ export default function About() {
           />
         </div>
       </div>
-       <div className="AboutBottom">
-        <div className="line"></div>
-        <section className="picturers">
-       <AboutBottomPicturersComponent/>
-        </section>
+      <div className="RandomFacts">
+        <h1>Random facts</h1>
+        <p>
+          I drink a lot of tea I'm into powerlifting nail contractor is my zen
+          time I'm a bit of a clean freak I'm slightly addicted to Netflix
+          spiderMan is my mentor
+        </p>
       </div>
     </div>
   );

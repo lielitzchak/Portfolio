@@ -1,18 +1,7 @@
-@keyframes shadow-drop-center {
-    0% {
-        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
-
-    100% {
-        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-    }
-}
-
-
 .About {
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
-    position: relative;
 
     .AboutUp {
         padding-top: 2%;
@@ -21,13 +10,13 @@
         .AboutMe {
             h1 {
                 color: white;
-                padding-left: 14%;
-                padding-right: 14%;
+                padding-left: 7%;
+                padding-right: 8%;
             }
 
             p {
-                padding-left: 14%;
-                padding-right: 14%;
+                padding-left: 7%;
+                padding-right: 8%;
                 color: white;
                 font-size: 1.5em;
             }
@@ -35,46 +24,24 @@
 
         .pictureOfMe {
             width: auto;
-            height: 50%;
-            padding-left: 14%;
             padding-right: 14%;
 
             img {
                 border-radius: 10px 100px / 120px;
                 width: auto;
                 height: 70%;
+                padding-left: 14%;
             }
         }
     }
 
-    .AboutBottom {
-        position: absolute;
-        padding-top: 32%;
-        width: 100%;
-
-        .line {
-            background-color: white;
-            width: 100%;
-            height: 2px;
+    .RandomFacts {
+        h1 {
+            color: white;
         }
 
-        .picturers {
-
-
-            .AllPicturers {
-                div {
-                    img {
-                        height: 50px;
-                        width: 50px;
-                    }
-                }
-            }
-
-            .shadow-drop-center {
-                animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            }
+        p {
+            color: white;
         }
-
-
     }
 }

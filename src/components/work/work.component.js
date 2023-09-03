@@ -1,10 +1,9 @@
 import { MY_PROJECTS } from "../Projects/Project";
-
 const Work = () => {
   return (
     <div className="information work">
-      {MY_PROJECTS.map((project) => {
-        if (project.Done) {
+      {MY_PROJECTS.map(function (project) {
+        if (project.Done)
           return (
             <div className="projects" key={project.Id}>
               <img src={project.Photo} alt={project.Name} />
@@ -15,7 +14,6 @@ const Work = () => {
               </a>
             </div>
           );
-        }
       })}
     </div>
   );

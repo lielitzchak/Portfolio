@@ -316,28 +316,10 @@
   }
 }
 @media only screen and (min-width: 1301px) {
-  @-webkit-keyframes shadow-drop-center {
-    0% {
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
-    100% {
-      box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-    }
-  }
-  @keyframes shadow-drop-center {
-    0% {
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
-    100% {
-      box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-    }
-  }
-}
-@media only screen and (min-width: 1301px) {
   * .About {
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
-    position: relative;
   }
   * .About .AboutUp {
     padding-top: 2%;
@@ -345,42 +327,29 @@
   }
   * .About .AboutUp .AboutMe h1 {
     color: white;
-    padding-left: 14%;
-    padding-right: 14%;
+    padding-left: 7%;
+    padding-right: 8%;
   }
   * .About .AboutUp .AboutMe p {
-    padding-left: 14%;
-    padding-right: 14%;
+    padding-left: 7%;
+    padding-right: 8%;
     color: white;
     font-size: 1.5em;
   }
   * .About .AboutUp .pictureOfMe {
     width: auto;
-    height: 50%;
-    padding-left: 14%;
     padding-right: 14%;
   }
   * .About .AboutUp .pictureOfMe img {
     border-radius: 10px 100px/120px;
     width: auto;
     height: 70%;
+    padding-left: 14%;
   }
-  * .About .AboutBottom {
-    position: absolute;
-    padding-top: 32%;
-    width: 100%;
+  * .About .RandomFacts h1 {
+    color: white;
   }
-  * .About .AboutBottom .line {
-    background-color: white;
-    width: 100%;
-    height: 2px;
-  }
-  * .About .AboutBottom .picturers .AllPicturers div img {
-    height: 50px;
-    width: 50px;
-  }
-  * .About .AboutBottom .picturers .shadow-drop-center {
-    -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-            animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  * .About .RandomFacts p {
+    color: white;
   }
 }/*# sourceMappingURL=App.css.map */

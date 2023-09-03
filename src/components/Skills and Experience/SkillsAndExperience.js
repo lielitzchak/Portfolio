@@ -13,7 +13,7 @@ const SkillsAndExperience = () => {
           small and medium web apps, custom plugins, features, animations, and
           coding interactive layouts. I also have full-stack developer
           experience with popular open-source CMS like (WordPress, Drupal,
-          Magento, Keystone.js and others) . Visit my LinkedIn profile for more
+          Magenta, Keystone.js and others) . Visit my <a href="https://www.linkedin.com/in/lielitzchak/">Linkedin</a> profile for more
           details or just contact me.
         </p>
       </div>

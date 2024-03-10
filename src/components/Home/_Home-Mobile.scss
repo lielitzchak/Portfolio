@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Carattere&family=Oooh+Baby&display=swap");
+
+.home {
+  color: white;
+  height: 100%;
+  width: 100%;
+  background-color: $backGround;
+  padding-left: 8.2%;
+  position: fixed;
+  .tags {
+    span {
+      font-family: "Oooh Baby", cursive;
+      font-weight: 400;
+      font-style: normal;
+
+      font-family: "Carattere", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
+  }
+  h1 {
+    color: white;
+  }
+  p {
+    color: white;
+  }
+  .contactHome {
+    a {
+      text-decoration: none;
+    }
+  }
+}

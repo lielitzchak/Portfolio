@@ -1,40 +1,30 @@
-$backGround:#444442;
+$backGround: #444442;
 $fontColor: black;
 
 @keyframes fadeIn {
-    100% {
-        opacity: 1
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 * {
-    border: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-    body {
-        width: 100%;
-        height: 100%;
-
-        .information {
-            height: 100%;
-            width: 100%;
-            background-color: $backGround;
-            padding-left: 8.2%;
-            position: fixed;
-        }
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  body {
+    background-color: $backGround;
+    overflow-x: hidden;
+    @media only screen and (min-width: 10px) and (max-width: 451px) {
+      // @import url("components/Home/_Home-Mobile.scss");
     }
 
-    @media only screen and (min-width: 10px) and (max-width: 451px) {}
-
-    @media only screen and (min-width:451px) and (max-width:1024px) {}
-
-    @media only screen and (min-width: 1301px) {
-        @import "components/SideBar/SideBar";
-        @import "components/Contact/Contact";
-        @import "components/work/Work";
-        @import "components/Skills and Experience/SkillsAndExperience";
-        @import "components/Home/Home";
-        @import "components/About/About";
+    @media only screen and (min-width: 451px) and (max-width: 1024px) {
+      // @import url("components/Home/_Home-Tablet.scss");
     }
+
+    @media only screen and (min-width: 1024px) {
+      @import url("components/SideBar/_SideBar-Desktop.scss");
+      @import url("components/Home/_Home-Desktop.css");
+    }
+  }
 }

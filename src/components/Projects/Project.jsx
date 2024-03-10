@@ -1,4 +1,3 @@
- 
 export const MY_PROJECTS = [
   {
     Name: "fitness app",
@@ -42,14 +41,6 @@ export const MY_PROJECTS = [
     Link: "https://did.li/trrCN",
     Photo: "https://did.li/1sINf",
     Id: 5,
-    Done: true,
-  },
-  {
-    Name: "calculator",
-    Description: "Nice project of a calculator.",
-    Link: "https://did.li/KCTfT",
-    Photo: "https://did.li/fRnTY",
-    Id: 6,
     Done: true,
   },
   {

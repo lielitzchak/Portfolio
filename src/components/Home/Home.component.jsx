@@ -1,21 +1,32 @@
 import { Link } from "react-router-dom";
+
 export default function Home() {
-  let space = ` `;
   return (
-    <div className="information Home">
-      <span>&lt;html&gt;</span>
-      <span>&lt;body&gt;</span>
-      <span>&lt;h1&gt;</span>
+    <div className="home">
+      <div className="tags">
+        <span>&lt;html&gt;</span>
+        <span>&lt;body&gt;</span>
+        <span>&lt;h1&gt;</span>
+      </div>
+
       <h1>Hi, Im Liel full stack development!</h1>
-      <span>&lt;/h1&gt;</span>
-      <span>&lt;p&gt;</span>
+
+      <div className="tags">
+        <span>&lt;/h1&gt;</span>
+        <span>&lt;p&gt;</span>
+      </div>
+
       <p>frontend, backend and full stack</p>
-      <span> &lt;/p&gt;</span>
-      <button>
+      <div className="tags">
+        <span> &lt;/p&gt;</span>
+      </div>
+      <button className="contactHome">
         <Link to="/contact"> contact me!</Link>
       </button>
-      <span> &lt;/body&gt;</span>
-      <span>&lt;/html&gt;</span>
+      <div className="tags">
+        <span> &lt;/body&gt;</span>
+        <span>&lt;/html&gt;</span>
+      </div>
     </div>
   );
 }

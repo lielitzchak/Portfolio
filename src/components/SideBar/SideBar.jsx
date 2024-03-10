@@ -1,12 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
 
 const SideBar = () => {
   return (
-    <div className="SideBar">
+    <div className="sideBar">
       <Link to="/">
         <img src="./logo_size.jpg" alt="logo" />
       </Link>
@@ -18,11 +15,11 @@ const SideBar = () => {
         {/* <Link to="blog">blog</Link> */}
       </nav>
       <div className="social">
-        <Link to="/email">
-          <FontAwesomeIcon icon={faEnvelope} />
+        <Link to="/email">a
+          {/* <FontAwesomeIcon icon={faEnvelope} /> */}
         </Link>
-        <Link to="/">
-          <FontAwesomeIcon icon={faAddressBook} />
+        <Link to="/">b
+          {/* <FontAwesomeIcon icon={faAddressBook} /> */}
         </Link>
       </div>
     </div>

@@ -1,33 +1,49 @@
-@import url("https://fonts.googleapis.com/css2?family=Carattere&family=Oooh+Baby&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&display=swap");
 
-.home {
-  color: white;
-  height: 100%;
-  width: 100%;
-  background-color: $backGround;
-  padding-left: 8.2%;
+.sideBar {
+  .hamburger-lines,
+  .checkbox {
+    display: none;
+  }
+  width: 12%;
+  text-transform: capitalize;
+  background-color: #181818;
+  height: 100vh;
   position: fixed;
-  .tags {
-    span {
-      font-family: "Oooh Baby", cursive;
-      font-weight: 400;
-      font-style: normal;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Noto Sans Buhid", sans-serif;
+  padding-top: 4%;
 
-      font-family: "Carattere", cursive;
-      font-weight: 400;
-      font-style: normal;
+  a {
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+  }
+
+  .navBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-top: 1px solid #282828;
+
+    a {
+      color: #909096;
+      border-bottom: 1px solid #282828;
     }
   }
-  h1 {
-    color: white;
-  }
-  p {
-    color: white;
-  }
-  .contactHome {
+  .social {
+    height: 20rem;
     a {
-      text-decoration: none;
+      img {
+        padding-top: 14%;
+        width: 21%;
+        height: auto;
+      }
     }
   }
 }
-

@@ -14,17 +14,19 @@ $fontColor: black;
   body {
     background-color: $backGround;
     overflow-x: hidden;
+    color: white;
     @media only screen and (min-width: 10px) and (max-width: 451px) {
+      // @import "components/Home/_Home-Mobile.scss";
       // @import url("components/Home/_Home-Mobile.scss");
     }
 
     @media only screen and (min-width: 451px) and (max-width: 1024px) {
-      // @import url("components/Home/_Home-Tablet.scss");
+      @import "components/Home/_Home-Tablet.scss";
     }
 
     @media only screen and (min-width: 1024px) {
-      @import url("components/SideBar/_SideBar-Desktop.scss");
-      @import url("components/Home/_Home-Desktop.css");
+      @import "components/SideBar/_SideBar-Desktop.scss";
+      // @import "components/Home/_Home-Desktop.scss";
     }
   }
 }

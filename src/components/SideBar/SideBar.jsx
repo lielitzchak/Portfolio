@@ -4,9 +4,7 @@ import { Link } from "react-router-dom";
 const SideBar = () => {
   return (
     <div className="sideBar">
-      <Link to="/">
-        <img src="./logo_size.jpg" alt="logo" />
-      </Link>
+      <Link to="/">Home</Link>
       <nav className="navBar">
         <Link to="about">About</Link>
         <Link to="my-skills">my skills</Link>
@@ -15,11 +13,11 @@ const SideBar = () => {
         {/* <Link to="blog">blog</Link> */}
       </nav>
       <div className="social">
-        <Link to="/email">a
-          {/* <FontAwesomeIcon icon={faEnvelope} /> */}
+        <Link to="/email">
+          <img src="https://did.li/ZpfgT" alt="email" />
         </Link>
-        <Link to="/">b
-          {/* <FontAwesomeIcon icon={faAddressBook} /> */}
+        <Link to="/">
+          <img src="https://did.li/294Nf" alt="linkedin" />
         </Link>
       </div>
     </div>

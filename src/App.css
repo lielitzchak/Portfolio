@@ -11,10 +11,97 @@
 * body {
   background-color: #444442;
   overflow-x: hidden;
+  color: white;
+}
+@media only screen and (min-width: 451px) and (max-width: 1024px) {
+  * body {
+    @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&display=swap");
+  }
+  * body .sideBar {
+    width: 12%;
+    text-transform: capitalize;
+    background-color: #181818;
+    height: 100vh;
+    position: fixed;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Noto Sans Buhid", sans-serif;
+    padding-top: 4%;
+  }
+  * body .sideBar .hamburger-lines,
+  * body .sideBar .checkbox {
+    display: none;
+  }
+  * body .sideBar a {
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+  }
+  * body .sideBar .navBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #282828;
+  }
+  * body .sideBar .navBar a {
+    color: #909096;
+    border-bottom: 1px solid #282828;
+  }
+  * body .sideBar .social {
+    height: 20rem;
+  }
+  * body .sideBar .social a img {
+    padding-top: 14%;
+    width: 21%;
+    height: auto;
+  }
 }
 @media only screen and (min-width: 1024px) {
   * body {
-    @import url("components/SideBar/_SideBar-Desktop.scss");
-    @import url("components/Home/_Home-Desktop.css");
+    @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&display=swap");
+  }
+  * body .sideBar {
+    width: 12%;
+    text-transform: capitalize;
+    background-color: #181818;
+    height: 100vh;
+    position: fixed;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Noto Sans Buhid", sans-serif;
+    padding-top: 4%;
+  }
+  * body .sideBar .hamburger-lines,
+  * body .sideBar .checkbox {
+    display: none;
+  }
+  * body .sideBar a {
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+  }
+  * body .sideBar .navBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #282828;
+  }
+  * body .sideBar .navBar a {
+    color: #909096;
+    border-bottom: 1px solid #282828;
+  }
+  * body .sideBar .social {
+    height: 20rem;
+  }
+  * body .sideBar .social a img {
+    padding-top: 14%;
+    width: 21%;
+    height: auto;
   }
 }/*# sourceMappingURL=App.css.map */

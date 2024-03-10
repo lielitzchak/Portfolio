@@ -1,28 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Carattere&family=Oooh+Baby&display=swap");
-
-.home { 
-   padding-left: 8.2%;
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+.home {
+  padding-left: 13%;
   position: fixed;
   .tags {
-    font-family: "Oooh Baby", cursive;
-    font-weight: 400;
-    font-style: normal;
     span {
-      font-family: "Carattere", cursive;
-      font-weight: 400;
-      font-style: normal;
+      font-family: "Josefin Sans", cursive;
     }
   }
   h1 {
-    color: pink;
+    text-transform: capitalize;
   }
   p {
-    color: red;
   }
   .contactHome {
-    border: yellow;
+    padding: 4%;
+    background-color: $backGround;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font: inherit;
+    // outline: inherit;
     a {
+      text-transform: uppercase;
       text-decoration: none;
+      color: white;
     }
   }
 }

@@ -16,7 +16,7 @@ $fontColor: black;
     overflow-x: hidden;
     color: white;
     @media only screen and (min-width: 10px) and (max-width: 451px) {
-      // @import "components/Home/_Home-Mobile.scss";
+      @import "components/Home/_Home-Mobile.scss";
       // @import url("components/Home/_Home-Mobile.scss");
     }
 

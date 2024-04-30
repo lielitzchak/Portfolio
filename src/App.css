@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Passions+Conflict&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
 @keyframes fadeIn {
   100% {
     opacity: 1;
@@ -14,9 +16,6 @@
   color: white;
 }
 @media only screen and (min-width: 10px) and (max-width: 451px) {
-  * body {
-    @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&display=swap");
-  }
   * body .sideBar {
     width: 32%;
     text-transform: capitalize;
@@ -53,6 +52,94 @@
     padding-top: 14%;
     width: 20%;
     height: auto;
+  }
+  * body .home {
+    margin-left: 33.5%;
+  }
+  * body .home .tags span {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #6d6d72;
+  }
+  * body .home .myName {
+    font-size: 52px;
+    font-family: "Moon Dance", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  * body .home .contactHome {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  * body .home .contactHome .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 13px 0px;
+    width: 240px;
+  }
+  * body .home .contactHome .container .btn {
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 45px;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  * body .home .contactHome .container .btn:hover {
+    text-decoration: none;
+  }
+  * body .home .contactHome .container .effect04 {
+    display: inline-flex;
+    color: #000;
+    outline: solid 2px #000;
+    position: relative;
+    transition-duration: 0.4s;
+    overflow: hidden;
+  }
+  * body .home .contactHome .container .effect04::before,
+  * body .home .contactHome .container .effect04 span {
+    margin: 0 auto;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    transition-duration: 0.4s;
+  }
+  * body .home .contactHome .container .effect04:hover {
+    background-color: #000;
+  }
+  * body .home .contactHome .container .effect04:hover span {
+    transform: translateY(-400%) scale(-0.1, 20);
+  }
+  * body .home .contactHome .container .effect04::before {
+    content: attr(data-sm-link-text);
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(500%) scale(-0.1, 20);
+  }
+  * body .home .contactHome .container .effect04:hover::before {
+    letter-spacing: 0.05em;
+    transform: translateY(0) scale(1, 1);
+  }
+  * body .About {
+    margin-left: 33.5%;
+  }
+  * body .About .AboutUp .AboutMe h1 {
+    margin-bottom: 4%;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 1024px) {
@@ -139,7 +226,6 @@
     margin: 20px auto 25px auto;
   }
   * body .Contact .row .submit-btn {
-    float: right;
     padding: 7px 35px;
     border-radius: 60px;
     display: inline-block;
@@ -207,9 +293,32 @@
 }
 @media only screen and (min-width: 1024px) {
   * body {
-    @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&display=swap");
     @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+    @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&display=swap");
     @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+  }
+  * body .home {
+    padding-left: 13%;
+    position: fixed;
+  }
+  * body .home .tags span {
+    font-family: "Josefin Sans", cursive;
+  }
+  * body .home h1 {
+    text-transform: capitalize;
+  }
+  * body .home .contactHome {
+    padding: 4%;
+    background-color: #444442;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font: inherit;
+  }
+  * body .home .contactHome a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
   }
   * body .sideBar {
     width: 12%;
@@ -251,29 +360,6 @@
     padding-top: 14%;
     width: 21%;
     height: auto;
-  }
-  * body .home {
-    padding-left: 13%;
-    position: fixed;
-  }
-  * body .home .tags span {
-    font-family: "Josefin Sans", cursive;
-  }
-  * body .home h1 {
-    text-transform: capitalize;
-  }
-  * body .home .contactHome {
-    padding: 4%;
-    background-color: #444442;
-    width: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    font: inherit;
-  }
-  * body .home .contactHome a {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: white;
   }
   * body .Contact .container h1 {
     font-weight: 600;

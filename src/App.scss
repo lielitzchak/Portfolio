@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Passions+Conflict&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+
 $backGround: #444442;
 $fontColor: black;
 
@@ -17,18 +20,17 @@ $fontColor: black;
     color: white;
     @media only screen and (min-width: 10px) and (max-width: 451px) {
       @import "components/Home/_Home-Mobile.scss";
-      // @import url("components/Home/_Home-Mobile.scss");
+      @import "components/About/About-Mobile.scss";
     }
 
     @media only screen and (min-width: 451px) and (max-width: 1024px) {
       @import "components/Home/_Home-Tablet";
       @import "components/Contact/_Contact-Tablet.scss";
-
     }
 
     @media only screen and (min-width: 1024px) {
+      @import "components/Home/_Home-Desktop.scss";
       @import "components/SideBar/_SideBar-Desktop";
-      @import "components/Home/_Home-Desktop";
       @import "components/Contact/Contact-Desktop";
     }
   }

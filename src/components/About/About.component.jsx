@@ -1,8 +1,6 @@
-import AboutBottomPicturersComponent from "./AboutBottomPicturersComponent";
-
 export default function About() {
   return (
-    <div className="About information">
+    <div className="About">
       <div className="AboutUp">
         <section className="AboutMe">
           <h1> I am a full-stack developer.</h1>
@@ -25,7 +23,7 @@ export default function About() {
         <div className="pictureOfMe">
           <img
             src="https://media-exp1.licdn.com/dms/image/C4D03AQHc4WsCx9L49g/profile-displayphoto-shrink_800_800/0/1642848341301?e=1675900800&v=beta&t=zsPVh-6P9zqLuRgJuiv3_RvaN1DE8HGq6TjKr4ZkMgE"
-            alt="my profile on linkedin"
+            alt="my linkedin profile"
           />
         </div>
       </div>

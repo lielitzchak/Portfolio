@@ -29,7 +29,7 @@ $fontColor: black;
     }
 
     @media only screen and (min-width: 1024px) {
-      // @import "components/Home/_Home-Desktop.scss";
+      @import "components/Home/_Home-Desktop.scss";
       // @import "components/SideBar/_SideBar-Desktop";
       // @import "components/Contact/Contact-Desktop";
     }

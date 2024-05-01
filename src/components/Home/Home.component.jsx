@@ -5,9 +5,9 @@ export default function Home() {
     <div className="home">
       <div className="tags">
         <span>&lt;html&gt;</span>
-        <hr/>
+        <hr />
         <span>&lt;body&gt;</span>
-        <hr/>
+        <hr />
         <span>&lt;h1&gt;</span>
       </div>
 
@@ -17,7 +17,7 @@ export default function Home() {
 
       <div className="tags">
         <span>&lt;/h1&gt;</span>
-        <hr/>
+        <hr />
         <span>&lt;p&gt;</span>
       </div>
 
@@ -33,13 +33,13 @@ export default function Home() {
             data-sm-link-text="CLICK"
             target="_blank"
           >
-            <span>CLICK HERE</span>
+            <span>LET'S TALK</span>
           </Link>
         </div>
       </div>
       <div className="tags">
         <span> &lt;/body&gt;</span>
-        <hr/>
+        <hr />
         <span>&lt;/html&gt;</span>
       </div>
     </div>

@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Passions+Conflict&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&display=swap");
 @keyframes fadeIn {
   100% {
     opacity: 1;
@@ -135,6 +137,21 @@
     letter-spacing: 0.05em;
     transform: translateY(0) scale(1, 1);
   }
+  * body .About {
+    margin-left: 33.5%;
+  }
+  * body .About .AboutUp .AboutMe h1 {
+    font-size: 66px;
+    font-family: "Clicker Script", cursive;
+    font-weight: 100;
+    padding-bottom: 2%;
+  }
+  * body .About .AboutUp .AboutMe p {
+    font-family: "Edu SA Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-bottom: 12%;
+  }
 }
 @media only screen and (min-width: 451px) and (max-width: 1024px) {
   * body .sideBar {
@@ -255,6 +272,23 @@
   * body .home .contactHome .container .effect04:hover::before {
     letter-spacing: 0.05em;
     transform: translateY(0) scale(1, 1);
+  }
+  * body .About {
+    margin-left: 21.5%;
+  }
+  * body .About .AboutUp .AboutMe h1 {
+    font-size: 66px;
+    font-family: "Clicker Script", cursive;
+    font-weight: 100;
+    padding-bottom: 1%;
+  }
+  * body .About .AboutUp .AboutMe p {
+    font-size: 20.1px;
+    font-family: "Edu SA Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-bottom: 11%;
+    padding-right: 2%;
   }
 }
 @media only screen and (min-width: 1024px) {

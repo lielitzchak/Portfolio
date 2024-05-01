@@ -1,8 +1,8 @@
-import { MY_PROJECTS } from "../Projects/Project";
+// import { MY_PROJECTS } from "../Projects/Project";
 const Work = () => {
   return (
     <div className="information work">
-      {MY_PROJECTS.map(function (project) {
+      {/* {MY_PROJECTS.map(function (project) {
         if (project.Done)
           return (
             <div className="projects" key={project.Id}>
@@ -14,7 +14,7 @@ const Work = () => {
               </a>
             </div>
           );
-      })}
+      })} */}
     </div>
   );
 };

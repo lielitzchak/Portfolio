@@ -1,10 +1,10 @@
-import { MY_PROJECTS } from "../Projects/Project";
+// import { MY_PROJECTS } from "../Projects/Project";
 const Work = () => {
   return (
     <div className="information work">
-      {MY_PROJECTS.map((project) => {return "a"})} 
-      {/* {MY_PROJECTS.map( (project)=> {
-        if (project.Done)
+      <h1>404</h1>
+      {/* {MY_PROJECTS.map(function (project) {
+         if (project.Done)
           return (
             <div className="projects" key={project.Id}>
               <img src={project.Photo} alt={project.Name} />

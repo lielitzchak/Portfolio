@@ -1,7 +1,8 @@
-// import { MY_PROJECTS } from "../Projects/Project";
+import { MY_PROJECTS } from "../Projects/Project";
 const Work = () => {
   return (
     <div className="information work">
+      {MY_PROJECTS.map((project) => {return "a"})} 
       {/* {MY_PROJECTS.map( (project)=> {
         if (project.Done)
           return (

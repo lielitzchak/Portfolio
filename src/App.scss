@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Passions+Conflict&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&display=swap');
 
 $backGround: #444442;
 $fontColor: black;
@@ -20,11 +22,12 @@ $fontColor: black;
     color: white;
     @media only screen and (min-width: 10px) and (max-width: 451px) {
       @import "components/Home/_Home-Mobile.scss";
-      // @import "components/About/About-Mobile.scss";
+      @import "components/About/About-Mobile.scss";
     }
 
     @media only screen and (min-width: 451px) and (max-width: 1024px) {
       @import "components/Home/_Home-Tablet";
+      @import "components/About/About-Tablet";
       // @import "components/Contact/_Contact-Tablet.scss";
     }
 

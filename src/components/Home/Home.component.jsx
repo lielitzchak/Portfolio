@@ -5,7 +5,9 @@ export default function Home() {
     <div className="home">
       <div className="tags">
         <span>&lt;html&gt;</span>
+        <hr/>
         <span>&lt;body&gt;</span>
+        <hr/>
         <span>&lt;h1&gt;</span>
       </div>
 
@@ -15,6 +17,7 @@ export default function Home() {
 
       <div className="tags">
         <span>&lt;/h1&gt;</span>
+        <hr/>
         <span>&lt;p&gt;</span>
       </div>
 
@@ -36,6 +39,7 @@ export default function Home() {
       </div>
       <div className="tags">
         <span> &lt;/body&gt;</span>
+        <hr/>
         <span>&lt;/html&gt;</span>
       </div>
     </div>

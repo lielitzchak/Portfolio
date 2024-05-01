@@ -24,7 +24,7 @@ $fontColor: black;
     }
 
     @media only screen and (min-width: 451px) and (max-width: 1024px) {
-      // @import "components/Home/_Home-Tablet";
+      @import "components/Home/_Home-Tablet";
       // @import "components/Contact/_Contact-Tablet.scss";
     }
 

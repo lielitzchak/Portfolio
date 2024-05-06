@@ -1,5 +1,3 @@
-// למחוק את הכתובת יואראל בהתחלה ולהשאיר רק את הקישור לגיטאהב
-
 export const MY_PROJECTS = [
   {
     Name: "fitness app",
@@ -51,6 +49,22 @@ export const MY_PROJECTS = [
     Link: "https://did.li/Qkgaa",
     Photo: "https://did.li/w3Pw5",
     Id: 7,
+    IsProjectFinished: true,
+  },
+  {
+    Name: "whatsApp bot",
+    Description: "whatsApp bot with python",
+    Link: "",
+    Photo: "https://did.li/YFVfT",
+    Id: 8,
+    IsProjectFinished: true,
+  },
+  {
+    Name: "Clean and Analyze Employee Exit Surveys",
+    Description: "Clean and Analyze Employee Exit Surveys with python",
+    Link: "",
+    Photo: "https://did.li/YFVfT",
+    Id: 9,
     IsProjectFinished: true,
   },
 ];

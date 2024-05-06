@@ -2,13 +2,12 @@ import { MY_PROJECTS } from "../Projects/Projects";
 import { Link } from "react-router-dom";
 const Work = () => {
   const ShowProjectOnScreen = (project) => {
-    console.log(project.Done);
     if (project.IsProjectFinished)
       return (
         <div className="project" key={project.Id}>
           <div className="container">
             <div className="singleProject">
-              <Link to="project.Link">
+              <Link to={`${project.Link}`}>
                 <div className="text">
                   <h1>{project.Name}</h1>
                 </div>

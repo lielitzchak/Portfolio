@@ -25,20 +25,21 @@ $fontColor: black;
       @import "components/About/About-Mobile.scss";
       @import "components/MySkills/MySkills-Mobile.scss";
       @import "components/work/work-Mobile";
+      @import "components/Contact/_Contact-Mobile.scss";
     }
 
     @media only screen and (min-width: 451px) and (max-width: 1024px) {
       @import "components/Home/_Home-Tablet";
       @import "components/About/About-Tablet";
       @import "components/work/work-tablet";
-      // @import "components/Contact/_Contact-Tablet.scss";
+      @import "components/Contact/_Contact-Tablet.scss";
     }
 
     @media only screen and (min-width: 1024px) {
       @import "components/Home/_Home-Desktop.scss";
       @import "components/About/About-Desktop.scss";
       @import "components/work/work-desktop";
-      // @import "components/Contact/Contact-Desktop";
+      @import "components/Contact/Contact-Desktop";
     }
   }
 }

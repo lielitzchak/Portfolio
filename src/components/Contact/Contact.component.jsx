@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="information Contact">
+    <div className="Contact">
       <div className="container">
         <h1>Contact Me</h1>
         <h4 style={{ textAlign: "center" }}>
@@ -19,7 +19,7 @@ const Contact = () => {
             <input type="email" required />
             <label>Email</label>
           </div>
-          <div className="styled-input" style={{ float: "right" }}>
+          <div className="styled-input">
             <input type="text" required />
             <label>Subject</label>
           </div>

@@ -1,3 +1,5 @@
+// למחוק את הכתובת יואראל בהתחלה ולהשאיר רק את הקישור לגיטאהב
+
 export const MY_PROJECTS = [
   {
     Name: "fitness app",
@@ -6,7 +8,7 @@ export const MY_PROJECTS = [
     Link: "https://did.li/Fvarl",
     Photo: "https://did.li/qj2YH",
     Id: 1,
-    Done: false,
+    IsProjectFinished: true,
   },
   {
     Name: "spotify",
@@ -15,7 +17,7 @@ export const MY_PROJECTS = [
     Link: "https://did.li/Fvarl",
     Photo: "https://did.li/YFVfT",
     Id: 2,
-    Done: false,
+    IsProjectFinished: true,
   },
   {
     Name: "hotel",
@@ -24,16 +26,16 @@ export const MY_PROJECTS = [
     Link: "https://did.li/hZNw5",
     Photo: "https://did.li/1sINf",
     Id: 3,
-    Done: true,
+    IsProjectFinished: true,
   },
   {
     Name: "DJ Chekol",
     Description:
-      "The first project I submitted, happened after one month in a development course. Done with HTML, CSS building a landing page for my boiler, and during the course I improved it with the help of scss",
+      "The first project I submitted, happened after one month in a development course. IsProjectFinished with HTML, CSS building a landing page for my boiler, and during the course I improved it with the help of scss",
     Link: "https://did.li/1sINf",
     Photo: "https://did.li/1sINf",
     Id: 4,
-    Done: true,
+    IsProjectFinished: true,
   },
   {
     Name: "Clothing Store",
@@ -41,7 +43,7 @@ export const MY_PROJECTS = [
     Link: "https://did.li/trrCN",
     Photo: "https://did.li/1sINf",
     Id: 5,
-    Done: true,
+    IsProjectFinished: true,
   },
   {
     Name: "movie",
@@ -49,6 +51,6 @@ export const MY_PROJECTS = [
     Link: "https://did.li/Qkgaa",
     Photo: "https://did.li/w3Pw5",
     Id: 7,
-    Done: true,
+    IsProjectFinished: true,
   },
 ];

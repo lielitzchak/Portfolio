@@ -152,6 +152,55 @@
     font-style: normal;
     padding-bottom: 12%;
   }
+  * body .mySkills {
+    padding-left: 33.2%;
+  }
+  * body .mySkills h1::first-letter {
+    font-size: 66px;
+    font-family: "Clicker Script", cursive;
+    font-weight: 100;
+    padding-bottom: 2%;
+  }
+  * body .mySkills p {
+    padding-bottom: 7%;
+  }
+  * body .mySkills p a {
+    color: blue;
+    text-decoration: none;
+  }
+  * body .work {
+    padding-left: 37.2%;
+  }
+  * body .work .project {
+    width: 100%;
+    height: auto;
+    padding-bottom: 4%;
+  }
+  * body .work .project .container {
+    padding-top: 10%;
+    text-align: center;
+  }
+  * body .work .project .container .singleProject {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3%;
+    background: #686866;
+  }
+  * body .work .project .container .singleProject img {
+    width: 88%;
+    height: auto;
+  }
+  * body .work .project .container .singleProject a {
+    text-decoration: none;
+  }
+  * body .work .project .container .singleProject .text h1 {
+    color: black;
+    text-transform: capitalize;
+    font-family: "Edu SA Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-bottom: 4%;
+  }
 }
 @media only screen and (min-width: 451px) and (max-width: 1024px) {
   * body .sideBar {
@@ -289,6 +338,42 @@
     font-style: normal;
     padding-bottom: 11%;
     padding-right: 2%;
+  }
+  * body .work {
+    padding-left: 7%;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 20% 20%;
+  }
+  * body .work .project {
+    width: 100%;
+    height: auto;
+    padding-bottom: 4%;
+  }
+  * body .work .project .container {
+    padding-top: 10%;
+    text-align: center;
+  }
+  * body .work .project .container .singleProject {
+    width: 222px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3%;
+    background: #686866;
+  }
+  * body .work .project .container .singleProject img {
+    width: 88%;
+    height: auto;
+  }
+  * body .work .project .container .singleProject a {
+    text-decoration: none;
+  }
+  * body .work .project .container .singleProject .text h1 {
+    color: black;
+    text-transform: capitalize;
+    font-family: "Edu SA Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-bottom: 4%;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -428,5 +513,41 @@
     font-style: normal;
     padding-bottom: 8%;
     padding-right: 2%;
+  }
+  * body .work {
+    padding-left: 20%;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 20% 20% 20%;
+  }
+  * body .work .project {
+    width: 100%;
+    height: auto;
+    padding-bottom: 4%;
+  }
+  * body .work .project .container {
+    padding-top: 10%;
+    text-align: center;
+  }
+  * body .work .project .container .singleProject {
+    width: 222px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3%;
+    background: #686866;
+  }
+  * body .work .project .container .singleProject img {
+    width: 88%;
+    height: auto;
+  }
+  * body .work .project .container .singleProject a {
+    text-decoration: none;
+  }
+  * body .work .project .container .singleProject .text h1 {
+    color: black;
+    text-transform: capitalize;
+    font-family: "Edu SA Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-bottom: 4%;
   }
 }/*# sourceMappingURL=App.css.map */

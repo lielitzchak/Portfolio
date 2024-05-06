@@ -1,0 +1,39 @@
+.work {
+  padding-left: 20%;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 20% 20% 20%;
+  .project {
+    width: 100%;
+    height: auto;
+    padding-bottom: 4%;
+    .container {
+      padding-top: 10%;
+      text-align: center;
+      .singleProject {
+        width: 222px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 3%;
+        background: #686866;
+        img {
+          width: 88%;
+          height: auto;
+        }
+        a {
+          text-decoration: none;
+        }
+        .text {
+          h1 {
+            color: $fontColor;
+            text-transform: capitalize;
+            font-family: "Edu SA Beginner", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+            padding-bottom: 4%;
+          }
+        }
+      }
+    }
+  }
+}

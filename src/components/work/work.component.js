@@ -1,21 +1,28 @@
-// import { MY_PROJECTS } from "../Projects/Project";
+import { MY_PROJECTS } from "../Projects/Projects";
+import { Link } from "react-router-dom";
 const Work = () => {
-  return (
-    <div className="information work">
-      <h1>404</h1>
-      {/* {MY_PROJECTS.map(function (project) {
-         if (project.Done)
-          return (
-            <div className="projects" key={project.Id}>
-              <img src={project.Photo} alt={project.Name} />
-              <a href={project.Link}>
+  const ShowProjectOnScreen = (project) => {
+    console.log(project.Done);
+    if (project.IsProjectFinished)
+      return (
+        <div className="project" key={project.Id}>
+          <div className="container">
+            <div className="singleProject">
+              <Link to="project.Link">
                 <div className="text">
                   <h1>{project.Name}</h1>
                 </div>
-              </a>
+                <img src={project.Photo} alt={project.Name} />
+              </Link>
             </div>
-          );
-      })} */}
+          </div>
+        </div>
+      );
+  };
+
+  return (
+    <div className="work">
+      {MY_PROJECTS.map((project) => ShowProjectOnScreen(project))}
     </div>
   );
 };

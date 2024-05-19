@@ -39,6 +39,7 @@ $fontColor: black;
     @media only screen and (min-width: 1024px) {
       @import "components/Home/_Home-Desktop.scss";
       @import "components/About/About-Desktop.scss";
+      @import "components/MySkills/MySkills-Desktop.scss";
       @import "components/work/work-desktop";
       @import "components/Contact/Contact-Desktop";
     }

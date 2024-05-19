@@ -16,7 +16,7 @@ const mySkills = () => {
         exceptional digital experiences.
       </p>
       <p>More about my experience and work you'll find on Skill and about.</p>
-      <div>This is where a graph of front and back end knowledge comes in </div>
+      <p>This is where a graph of front and back end knowledge comes in </p>
       (כאן נכנס גרף של ידע פרונט ובק אנד)
     </div>
   );

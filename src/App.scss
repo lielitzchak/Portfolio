@@ -31,6 +31,7 @@ $fontColor: black;
     @media only screen and (min-width: 451px) and (max-width: 1024px) {
       @import "components/Home/_Home-Tablet";
       @import "components/About/About-Tablet";
+      @import "components/MySkills/MySkills-Tablet";
       @import "components/work/work-tablet";
       @import "components/Contact/_Contact-Tablet.scss";
     }
